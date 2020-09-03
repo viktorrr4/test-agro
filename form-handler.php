@@ -1,7 +1,5 @@
 <?php
 
-// isset($_POST['user__name']) && $_POST['user__name']
-
 if (isset($_POST['user__name']) && empty($_POST['user__name'])) {
   echo '*Заполните поля: Имя';
 } elseif (isset($_POST['user__tel']) && empty($_POST['user__tel'])) {
